@@ -5,3 +5,31 @@ button{
     font-size: 16px;
     cursor: pointer;
 }
+.tb-wrapper{
+    border: 1px solid #777;
+    margin-top: 40px;
+}
+.tb-cm {
+    width: 100%;
+}
+.tb-header{
+    height: 60px;
+}
+.tb-cm tr{
+    height: 60px;
+}
+.pagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.pagination .item {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #777;
+    text-align: center;
+    margin-right: 10px;
+}
