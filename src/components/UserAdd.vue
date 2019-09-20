@@ -102,7 +102,7 @@ export default {
         },
         postForm() {
             for (let key in this.formData) {
-                if (!this.formData[key]) {
+                if (this.formData[key] === '') {
                     alert("请完善资料");
                     return;
                 }
